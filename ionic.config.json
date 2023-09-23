@@ -1,0 +1,7 @@
+{
+  "name": "eventosNotFound",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
