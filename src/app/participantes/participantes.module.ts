@@ -8,6 +8,8 @@ import { ParticipantesPageRoutingModule } from './participantes-routing.module';
 
 import { ParticipantesPage } from './participantes.page';
 import { MostrarParticipanteComponent } from './mostrar-participante/mostrar-participante.component';
+import { ParticipantesActivosComponent } from './participantes-activos/participantes-activos.component';
+import { ParticipantesInactivosComponent } from './participantes-inactivos/participantes-inactivos.component';
 
 @NgModule({
   imports: [
@@ -16,6 +18,6 @@ import { MostrarParticipanteComponent } from './mostrar-participante/mostrar-par
     IonicModule,
     ParticipantesPageRoutingModule
   ],
-  declarations: [ParticipantesPage,MostrarParticipanteComponent]
+  declarations: [ParticipantesPage,MostrarParticipanteComponent,ParticipantesActivosComponent,ParticipantesInactivosComponent]
 })
 export class ParticipantesPageModule {}

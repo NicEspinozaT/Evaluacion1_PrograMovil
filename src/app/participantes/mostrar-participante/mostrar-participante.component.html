@@ -30,8 +30,10 @@
       </ion-item>
       <ion-item>
         <ion-label>
-          <h3>Estado</h3>
-          <p>{{ participante.Estado }}</p>
+          <h3>Estado</h3>  
+          <p *ngIf="participante.Estado === 'Activo'" style="color: green;">{{ participante.Estado }}</p>
+          <p *ngIf="participante.Estado === 'Inactivo'" style="color: red;">{{ participante.Estado }}</p>
+
          </ion-label>
       </ion-item>
     </ion-list>
